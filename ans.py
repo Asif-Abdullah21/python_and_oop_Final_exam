@@ -190,6 +190,7 @@ while True:
 
                 if flag == False:
                     print('There is no account.')
+                    break
             else:
                 print('\n__________Welcome User___________')
                 print('1. Deposit money in your account')
@@ -230,8 +231,4 @@ while True:
     elif op == 3:
         print('______ Thanks for using our bank _______')
         break
-
-
-
-
 
